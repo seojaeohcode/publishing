@@ -70,3 +70,7 @@ popup => none태그로 조정 / visuallity: hidden
 
 Readme
 # => h태그
+
+px 화상도를 따라감 => 화상도가 커지면 작아짐
+rem/em => 1 = 1배
+기준값의 1배 / div의 의한 배수

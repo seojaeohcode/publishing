@@ -1,8 +1,8 @@
 # publishing
 
-[resume_html](./cases/resume.html)
+[beginner_html]()
 
 ### exercise cases
-|category|title|code|reference|
-|--|--|--|--|
-|begginer|html tag|[resume_html](./cases/resume.html)|https://developer.mozilla.org/ko/docs/Learn/HTML|
+|category|title|url|code|reference|
+|--|--|--|--|--|
+|begginer|html tag|[HTML]()|[resume_html](./cases/resume.html)|https://developer.mozilla.org/ko/docs/Learn/HTML|

@@ -1,0 +1,49 @@
+git, vscode download
+git vscode install
+commit(checkbox), push(... button)
+git config --global user.email "seojaeohcode@gmail.com"
+git config --global user.name "seojaeoh"
+
+주 사용 탭
+>Code,Setting
+>general,collaborators, Pages
+
+퍼블리싱
+
+! 자동완성
+
+효율성 : https://curryyou.tistory.com/262
+
+블록태그 라인처음~끝까지 이어지는 태그
+인라인태그
+
+주석 ctrl+/
+
+./ 나랑 같은 곳에 있다면 상대주소(현재주소)
+../상위주소
+전부 다 적으면 절대주소
+
+url-uri : https://velog.io/@jch9537/URI-URL
+
+이미지 : https://placeimg.com/
+
+콘솔창 : https://allblack0811.tistory.com/14
+
+Ctrl+P => >git Clone => Code에서 복제한 링크
+
+질문은 많이
+
+검사
+>html편집, 시작 옆 버튼2개(영역보기, 화면크기보기)
+
+금지
+<br/>은 쓰지 말자
+이미지를 강제로 가로 세로 길이를 바꾸면 네트워크비용증가
+>서버에서 오기전에 미리 준비를 해야함.(img > width / height)
+>급격하게 커지면 깨지는 문제도 있다.(적당한 사이즈를 백엔드에서 유지할 필요가 있다.)
+
+gitignore
+> 이 기능을 통해서 올리지 말아야할 환경파일들을 지정해 올리지 않을 수 있다.
+
+license
+> 내 파일에 대한 권리를 부탁

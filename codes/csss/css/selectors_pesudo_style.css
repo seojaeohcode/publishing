@@ -1,0 +1,38 @@
+h3 {
+    background-color: white;
+}
+
+h3:hover{
+    background-color: blueviolet;
+}
+/* .parents > div */
+.parents > .childtwo > h3 + div {
+    color: blueviolet;
+    border: 1px dotted black;
+    background-color: gainsboro;
+    margin: 5px;
+}
+
+button{
+    border: 2px solid red;
+    font-size: 40px;
+    border-radius: 10px 20px;
+}
+
+span{
+    color: red;
+    margin: 5px;
+    background-color: aqua;
+}
+
+.span-second:hover{
+    display: none;
+}
+
+.span-third{
+    visibility: hidden;
+}
+
+.span-forth{
+
+}

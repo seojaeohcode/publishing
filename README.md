@@ -1,8 +1,6 @@
 # publishing
 
-[beginner_html]()
-
 ### exercise cases
 |category|title|url|code|reference|
 |--|--|--|--|--|
-|begginer|html tag|[HTML]()|[resume_html](./cases/resume.html)|https://developer.mozilla.org/ko/docs/Learn/HTML|
+|begginer|html tag|[HTML](https://seojaeohcode.github.io/publishing/cases/beginner_html_site_styled.html)|[resume_html](./cases/beginner_html_site_styled.html)|https://developer.mozilla.org/ko/docs/Learn/HTML|

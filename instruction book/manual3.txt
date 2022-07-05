@@ -109,6 +109,51 @@ push pop splice split includes join concat
 function은 리턴값의 갯수가 복수면 s,es 단수면 단수로
 
 상속
+*object -> 다른 변수
+
+오브젝트 형태
+변수의 성격
+A : B 키를 통해서 값을 받아옴.
+기능적인 성격 각 변수의 값에 따라 함수를 줄 수 있음.
+EX)
+let monkey = {
+    name : "George",
+    species : "gorilla",
+    foodsEaten : ["apple", "banana", "orange"]
+}
+*함수의 조상도 오브젝트이기 때문에, 오브젝트에는 함수도 가질 수 있다.
+
+함수
+function name(param){
+    return x;
+}
+
+함수선언 3way
+normal
+function name(params) {
+    return x;
+}
+
+anonymous
+let sumTwoAnonymous = function (params) {
+    return x;
+}
+사용법: sumTwoAnonymous(params)
+오브젝트에 넣을 때
+let A = {
+    sumTwoAnonymous : function (x) {return x;}
+}
+
+arrow
+let sumTwoArrow = (x) => {return x;}
+console.log(sumTwoArrow(1));
+
+*오브젝트에 넣을 때는 애로우 보단 어나니머스가 좋다.
+
+콜백은 자바스크립트의 비동기처리를 해결해준다. 이전코드가 끝나기 전에 다음 코드의 실행을 하는 경우에 임의로 막아줄 수가 있다.
+
+백틱(1옆의 키 ``)
+``안에 ${변수}를 쓰면 한번에 출력가능 +보다 훨씬 효율적.
 
 산술연산
 + - * / % **
@@ -126,6 +171,17 @@ parseInt / number
 `${var}??!` > var+??!
 
 호이스팅
+호이스팅은 다른 자료형과 변수에도 잘 작동합니다. 변수를 선언하기 전에 먼저 초기화하고 사용할 수 있는 것입니다.
+https://developer.mozilla.org/ko/docs/Glossary/Hoisting
+EX) 
+let result = sumTwo(5, 7);
+function sumTwo(x, z)
+{
+    let result = x+z;
+    return result;
+}
+
+OOP : 조상에게 자손이 무엇을 받아오는 것.
 --------------------------------------------------------------
 
 자바스크립트 문법 이외
@@ -172,4 +228,7 @@ function asink sink 동기 비동기
 
 기호를 영어로 알아야한다.
 
-OOP : 조상에게 자손이 무엇을 받아오는 것.
+
+논리와 설득을 해야함. 설득을 해야하는거지 감정이 앞서면 안된다.
+
+커먼코드(제너릭), 많은 질문, 질문지정리, 메일, 스택오버플로, 업무분리

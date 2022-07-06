@@ -182,6 +182,9 @@ function sumTwo(x, z)
 }
 
 OOP : 조상에게 자손이 무엇을 받아오는 것.
+
+콜백 / 프로미스
+비동기처리
 --------------------------------------------------------------
 
 자바스크립트 문법 이외
@@ -231,4 +234,71 @@ function asink sink 동기 비동기
 
 논리와 설득을 해야함. 설득을 해야하는거지 감정이 앞서면 안된다.
 
-커먼코드(제너릭), 많은 질문, 질문지정리, 메일, 스택오버플로, 업무분리
+커먼코드(제너릭), 많은 질문, 질문지정리, 메일, 스택오버플로, 업무분리, mac=>rinux, 주요단어영문이름선정(사전제작), 테스트케이스
+
+window(DOM BOM javascript) => DOM(=document=body) / BOM(=브라우저의 실제 기능컨트롤 / OS까지도 권한만 있다면 컨트롤가능)
+window 브라우저 자체
+alert(경고창) / confirm(확인 취소 경고창) / prompt(입력 경고창)
+
+navigator
+userAgent html 메타태그 같은 곳에서 활용, 브라우저의 버전 등의 정보를 담음.
+
+location.href url를 바꿈.
+
+document = html > Tree구조
+document.body.style.background = "green"으로 바디의 스타일 지정도 가능.
+document.querySelector("p") 쿼리셀렉터를 통해서 특정 태그나 클래스 지정가능.
+document.querySelectorAll("li") 복합선택
+let pTag = document.querySelector("p") 변수에 담아서 사용
+innerHTML / innerText 
+안의 태그들이 있다면 HTML과 텍스트, 태그까지 보여주고, 텍스트는 텍스트만 출력
+둘다 가져올 때 줄바꿈을 \n으로 하나의 문자열로 가져오는데, 스플릿해서 써야할 듯.
+ptag.innerHTML = "<h2>Doms</h2>"처럼 태그도 집어넣을 수 있다.
++=로 추가하는 방식이 있긴한데 잘 없음.
+
+document => DOM구조로 이해할 수 있도록 만들어야한다. 
+DOM구조로 해석할 수 있도록 인터프리터가 파싱하게 만들기.
+HTML => 파싱중요 DOM으로 파싱
+형제 자손 부모 조상을 알아야한다.
+ulTag.children
+ulTag.children[0]
+ulTag.lastElementChild
+ulTag.nextElementSibling
+ulTag.parentElement.parentElement
+----
+let ulTag = document.querySelector("ul");
+let liTag = document.createElement('li')
+
+liTag = document.createElement('li')
+<li>​</li>​
+liText = document.createTextNode('LG')
+"LG"
+liTag.appendChild(liText)
+"LG"
+ulTag.appendChild(liTag)
+----
+let ulTag = document.querySelector("ul");
+let liTag = document.createElement('li');
+let liText = document.createTextNode('LG');
+        
+liTag.appendChild(liText);
+ulTag.appendChild(liTag);
+
+let aTag = document.querySelector("a");
+aTag.innerText = "Daum";
+aTag.setAttribute("href", "https://www.daum.net/");
+----
+쿼리셀렉한 변수.remove
+셀렉터 -> 웹스크립팅능력(정보긁어오기)
+
+event
+onclick 같은 하드코딩은 많이 사용하지 않는 방식이다.
+id는 이벤트를 다룰 때 class를 사용하지 못하기 때문에 사용된다.
+
+id => 
+
+""맨 밖 / ''안쪽
+
+태그*N => N만큼 태그생성 단축
+
+500~1000정도는 업해서 불러라
